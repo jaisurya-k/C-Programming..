@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+    int len,i,asc;
+    char arr[100];
+    scanf("%s",arr);
+    len=strlen(arr);
+    for(i=0;i<len;i++)
+    {
+      asc=(int)arr[i]+32;
+      printf("%c",asc);
+    }
+}

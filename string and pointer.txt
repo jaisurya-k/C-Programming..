@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+ char *ptr;
+ char *plt;
+ char string[]="jaihello";
+ char dtt[]="jayasurya";
+ plt=dtt,plt+=4;
+ ptr=string,ptr+=3;
+ printf("%s\n",plt);
+ printf("%s",ptr);
+}

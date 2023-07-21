@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+   int a,b,n,flag;
+   flag=0;
+   scanf("%d",&n);
+   b=n;
+   while(n>0)
+   {
+       if(n%10==0)
+       {
+           flag=1;
+           break;
+       }
+       n=n/10;
+   }
+   if(flag==1)
+    printf("duck number");
+   else
+    printf("not duck number");
+   return 0;
+
+
+}

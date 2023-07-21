@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+
+{
+  static char z;
+  if(z)
+  {
+     printf("yes");
+  }
+  else
+  {
+      printf("no");
+  }
+}

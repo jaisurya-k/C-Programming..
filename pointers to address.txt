@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+    int a=10;
+    int *p;
+    int **y;
+    int ***x;
+    p=&a;
+    y=&p;
+    x=&y;
+    printf("%d\n",a);
+    printf("%p\n",&a);
+    printf("%p\n",p);
+    printf("%p",&p);
+    printf("%d\n",*p);
+    printf("%p\n",y);
+    printf("%d\n",**y);
+    printf("%p\n",x);
+    printf("%p\n",*x);
+    printf("%p\n",**x);
+    printf("%d",***x);
+
+}

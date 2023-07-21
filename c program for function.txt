@@ -1,0 +1,21 @@
+#include<stdio.h>
+int add(int m,int n);
+int display(int a,int b,int c)
+int main()
+{
+    int x,y,z;
+    printf("enter the x&y&z value:");
+    scanf("%d%d%d",&x,&y,&z);
+    add(x,y);
+    display(x,y,z);
+    printf("%d\n%d",add(x,y),display(x,y,z));
+    return 0;
+}
+int add(int a,int b)
+{
+    return a+b;
+}
+int display(int a,int b,int c)
+{
+    return a+b+c;
+}

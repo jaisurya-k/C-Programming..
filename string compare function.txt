@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+    int a;
+    char sh[50];
+    char sc[50];
+    scanf("%s",sh);
+    scanf("%s",sc);
+    a=strcmp(sh,sc);
+    if(a==0)
+        printf("string are same");
+    else
+        printf("string are not same");
+}
+
+
+
